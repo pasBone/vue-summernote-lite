@@ -1,0 +1,26 @@
+{
+  "name": "vue-summernote-lite",
+  "version": "1.0.0",
+  "description": "summernote-lite editor for vue",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "codemirror": "^5.37.0",
+    "jquery": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasBone/vue-summernote-lite.git"
+  },
+  "keywords": [
+    "WYSIWYG summernote summernote-lite editor"
+  ],
+  "author": "pasbone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasBone/vue-summernote-lite/issues"
+  },
+  "homepage": "https://github.com/pasBone/vue-summernote-lite#readme"
+}
