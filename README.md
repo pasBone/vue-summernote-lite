@@ -6,7 +6,11 @@ summernote editor for vue
 依赖：jquery  (**只需要jquery**, 不需要bootstrap);
 
 demo:  [点我][2]
-
+``` javascript 
+   npm install 
+   npm run dev
+   open http://localhost:8888/#/vue-summernote-lite
+```
 安装使用：
 ``` javascript
  npm install vue-summernote-lite --save
