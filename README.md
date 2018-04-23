@@ -27,17 +27,17 @@ export default {
 		height: 600,
         width: 810,
         focus: true,
-        imageUploadUrl: "", //图片上传地址
-        videoUploadUrl: "",
+        imageUploadUrl: "", 如果要使用图片/视频上传，请务必先配置地址
+        videoUploadUrl: "",  视频地址
         placeholder: "",
-        imageLoadUrl(result) {
-          //图片上传成功之后的回调
-          //result是上传图片的返回值
+        imageLoadUrl(result) {  图片的显示地址，返回一个URL
+          图片上传成功之后的回调
+          result是上传图片的返回值
           return "http://xx.com"
         },
         videoLoadUrl(result) {
-          //视频上传成功之后的回调
-          //result是上传视频的返回值
+          视频上传成功之后的回调
+          result是上传视频的返回值
           return "http://chimee.org/vod/1.mp4";
         }
       }
@@ -59,13 +59,18 @@ export default {
         console.log("onPast");
       });
 	  
-	  //等其他配置，事件和方法与summernote一致，参见summentnote 官网 api
+	  等其他配置，事件和方法与summernote一致，参见summentnote 官网 api
     }
   }
 };
 
+> 关于其他，只做了简单包装，其他bug或者要求请各位fork代码自行按照实际需求做定制化的修改。
+
 ```
- `
+
+  
+
+  `
 
 
   [1]: https://summernote.org
