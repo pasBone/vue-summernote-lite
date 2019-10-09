@@ -5,7 +5,9 @@
  * @Last Modified time: 2018-04-19 17:32:22
  */
 <template>
-  <div :id="element"></div>
+  <div :id="element">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
